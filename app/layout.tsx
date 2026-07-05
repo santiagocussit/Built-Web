@@ -50,6 +50,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+      </head>
       <body className={inter.className}>
         <div className="flex min-h-screen flex-col">
           <Header />
